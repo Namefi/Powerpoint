@@ -6,7 +6,6 @@
     <title>The Official PowerPoint Group Website</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
         
@@ -53,31 +52,15 @@
         iframe:hover {
             transform: scale(1.05);
         }
-        .arrow-container {
-            position: fixed;
-            right: 10px;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 48px;
-            color: #333;
-            cursor: pointer;
-            transition: transform 0.3s ease;
-        }
-        .arrow-container:hover {
-            transform: translateY(-50%) scale(1.2);
-        }
         .footer {
             margin-top: 30px;
             font-size: 0.9em;
             color: #777;
         }
-        section {
-            margin-top: 100vh;
-        }
     </style>
     <script>
-        function scrollToAboutUs() {
-            document.getElementById('about-us').scrollIntoView({ behavior: 'smooth' });
+        function showDownloadMessage(filename) {
+            alert('You have successfully downloaded ' + filename);
         }
     </script>
 </head>
@@ -93,15 +76,8 @@
         <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2118960&authkey=!AGnpgpxUl-n0xFU&em=2"></iframe>
         <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2118943&authkey=!AHcwsMJ3EXfCsJ4&em=2"></iframe>
     </div>
-    <div id="about-us" class="container">
-        <h2>About Us</h2>
-        <p>We're a team of teenagers dedicated to making PowerPoint presentations for any purpose. It all started when one of us was bored and had the idea to create this team.</p>
-    </div>
     <div class="footer">
         © 2024 The PowerPoint Group. All rights reserved. Copying Forbidden. If Found Copying Consequences can apply.                                                       
     </div>
-    <span class="material-symbols-outlined arrow-container" onclick="scrollToAboutUs()">
-        arrow_forward
-    </span>
 </body>
 </html>
