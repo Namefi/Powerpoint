@@ -6,42 +6,65 @@
     <title>The Official PowerPoint Group Website</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Roboto', sans-serif;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
             margin: 0;
-            background: linear-gradient(to right, skyblue, lightgreen);
+            background: linear-gradient(135deg, cyan, lightgreen);
             color: #333;
         }
         h1 {
             margin-bottom: 20px;
-            font-size: 2.5em;
+            font-size: 3em;
+            font-weight: 700;
+            color: #333;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: #333;
         }
         .container {
-            background: linear-gradient(to right, skyblue, lightgreen);
+            background: linear-gradient(lightgreen, orange);
             padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             text-align: center;
+            max-width: 1200px;
+            width: 90%;
+            margin: 20px;
         }
-        .download-link {
-            display: inline-block;
-            margin: 10px;
-            padding: 15px 25px;
-            background-color: #4CAF50;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1em;
-            transition: background-color 0.3s ease;
+        iframe {
+            border: none;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 600px;
+            height: 450px;
+            transition: transform 0.3s ease;
         }
-        .download-link:hover {
-            background-color: #45a049;
+        iframe:hover {
+            transform: scale(1.05);
+        }
+        .arrow-container {
+            position: fixed;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 48px;
+            color: #333;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .arrow-container:hover {
+            transform: translateY(-50%) scale(1.2);
         }
         .footer {
             margin-top: 30px;
@@ -58,16 +81,20 @@
 <body>
     <div class="container">
         <h1>The PowerPoint Group</h1>
-        <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2118958&authkey=!AKWy4xuK7NMd0XU&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
-        <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2118955&authkey=!AGh__pBycuy1GnY&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
-        <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2119069&authkey=!AOBwGGlFCHY-s9E&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
-        <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2118949&authkey=!AAR0wAm0JwadsoA&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
-        <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2118975&authkey=!AIihKZ_z7wpAlkw&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
-        <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2118960&authkey=!AGnpgpxUl-n0xFU&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
-        <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2118943&authkey=!AHcwsMJ3EXfCsJ4&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
+        <h2>These are the powerpoints we made</h2>
+        <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2118958&authkey=!AKWy4xuK7NMd0XU&em=2"></iframe>
+        <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2118955&authkey=!AGh__pBycuy1GnY&em=2"></iframe>
+        <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2119069&authkey=!AOBwGGlFCHY-s9E&em=2"></iframe>
+        <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2118949&authkey=!AAR0wAm0JwadsoA&em=2"></iframe>
+        <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2118975&authkey=!AIihKZ_z7wpAlkw&em=2"></iframe>
+        <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2118960&authkey=!AGnpgpxUl-n0xFU&em=2"></iframe>
+        <iframe src="https://onedrive.live.com/embed?resid=F2570E1B16EF9FE4%2118943&authkey=!AHcwsMJ3EXfCsJ4&em=2"></iframe>
     </div>
     <div class="footer">
-        © 2024 The PowerPoint Group. All rights reserved. Copying Forbidden. If Found Copying Consiquences can apply.                                                       
+        © 2024 The PowerPoint Group. All rights reserved. Copying Forbidden. If Found Copying Consequences can apply.                                                       
     </div>
+    <a href="about-us.html" class="material-symbols-outlined arrow-container">
+        arrow_forward
+    </a>
 </body>
 </html>
