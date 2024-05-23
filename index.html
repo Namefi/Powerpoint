@@ -6,6 +6,7 @@
     <title>The Official PowerPoint Group Website</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
         
@@ -52,6 +53,19 @@
         iframe:hover {
             transform: scale(1.05);
         }
+        .arrow-container {
+            position: fixed;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 48px;
+            color: #333;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .arrow-container:hover {
+            transform: translateY(-50%) scale(1.2);
+        }
         .footer {
             margin-top: 30px;
             font-size: 0.9em;
@@ -79,5 +93,8 @@
     <div class="footer">
         © 2024 The PowerPoint Group. All rights reserved. Copying Forbidden. If Found Copying Consequences can apply.                                                       
     </div>
+    <a href="Namefi.github.io/thepptabout-" class="material-symbols-outlined arrow-container">
+        arrow_forward
+    </a>
 </body>
 </html>
