@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Official PowerPoint Group Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: lightgreen; /* Set the background color here */
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: Lightgreen; /* Set the background color here */
+        }
+        h1 {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 2em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 1.5em;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>The PowerPoint Group</h1>
+        <section>
+            <h2>About Us</h2>
+            <p>We're a team of teenagers dedicated to making PowerPoint presentations for any purpose. It all started when one of us was bored and had the idea to create this team.</p>
+        </section>
+        <section>
+            <h2>Our Team Mission</h2>
+            <p>Our mission is to create engaging and informative PowerPoint presentations to help others convey their ideas effectively.</p>
+        </section>
+    </div>
+</body>
+</html>
